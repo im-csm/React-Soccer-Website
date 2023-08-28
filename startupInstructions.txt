@@ -1,0 +1,5 @@
+Start the API service:
+npx json-fake-server -m dev-mock-server-config.json
+
+Start up the website frontend:
+npm start

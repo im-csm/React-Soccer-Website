@@ -1,0 +1,52 @@
+#navbar {
+  font-family: 'Open Sans';
+  background-color: #025FEB;
+  width: 100%;
+  margin: 0;
+  height: 60px;
+  display: flex;
+}
+
+#site-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px 0 40px;
+  padding: 0;
+  width: 110px;
+}
+
+/* Contains 'Schedule' and 'Leaderboard' text and logos in the nav bar.*/
+#nav-links-container {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  background-color: #025FEB;
+}
+
+/* The individual links. Holds nav-link-text and nav-link-logo. */
+.nav-link {
+  display: flex;
+  margin: 0 40px 0 0;
+  padding: 0;
+  width: auto;
+  align-items: center;
+}
+
+.nav-link-text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link-logo {
+  height: 25px;
+  margin: 0;
+  padding: 0 5px 0 0;
+  display: flex;
+  align-items: center;
+}

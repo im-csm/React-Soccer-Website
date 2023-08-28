@@ -1,0 +1,16 @@
+/* Commented out because I dont know if I can delete per rules.
+ div {
+    margin: 120px auto;
+    width: 50%;
+    text-align: left;
+    font-size: 24px;
+} */
+
+#root {
+    margin: 0;
+    width: 100%;
+}
+
+#wrapper {
+    position: relative;
+}
