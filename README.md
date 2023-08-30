@@ -1,55 +1,50 @@
-# Sport League Web UI
+# Welcome to my Sport League UI Project! 
 
-Welcome to the Sport League Web UI project. The goal of the project is to build a browser based web frontend SPA that gets the data about match schedule/results from the backend and then computes leaderboard based on the rules explained in the challenge description.
+The goal of the project is to to create a SPA frontend to display a match schedule and tournament leaderboard with data from the backend API.
+This site was built with:
+- JSON backend API.
+- React/Javascript frontend
 
-## Install Dependencies
+The site has 2 main pages with a 404 Not Found page for any other URL. <br/>
+The schedule page:
+- Routed to http://localhost:3000/schedule or http://localhost:3000/
+The leaderboard page:
+- Routed to http://localhost:3000/leaderboard<br/>
 
-This solution requires NodeJs v16 installed.
+Both the schedule and leaderboard page have a responsive layout, changing the table columns depending on the width of the page:<br/>
 
-In order to install project dependencies run:
+### Schedule Page
+<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/f3983356-407e-4091-b209-0abc5c3c3e00" width="855" height="600"/>
+<br/>
+<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/31e65a93-a10f-4ca7-8240-f72fbea7bf55" width="500" height="500" /> <img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/ebf0b17f-ee8a-4817-b472-5a07e802a462" width="350" height="500" />
 
-> **npm** install
+<br/>
 
-## Running Backend Mock Server
+## Leaderboard Page
+<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/c918439d-221f-429c-a89e-ee44ab5a7338" width="855" height="600"/>
+<br/>
+<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/bca98afc-f0df-47de-9a64-5c211d72d56b" width="500" height="500"/>  <img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/cf07b333-bfd8-4787-a65b-a4015cff8bbf" width="350" height="500"/>
 
-In order to work on the frontend application we have provided a simple mock database server.
+<br/>
 
-To run the mock server run the following command:
+# Instructions to run the site locally:
 
-> **npx** json-fake-server -m dev-mock-server-config.json
+### Step 1: Install Dependencies.
 
-After this you would be able to access backend at http://localhost:3001. To verify if the server is running you can run:
+This solution requires NodeJs v16 installed.<br/>
+To install project dependencies run:
 
-> **curl** http://localhost:3001/api/version
+> npm install
 
-The response should be `{"success": true, "version": "1.0"}`
+### Step 2: Run the Backend Mock Server
 
-**IMPORTANT:** If you need to change default backend port, make sure to revert them back to 3001 before submitting the solution as otherwise the grading system might not detect the backend server and you will lose points.
+The site works with a local mock server that distributes the JSON responses for API version, Match data, and Match data secret token.
+To run the mock server use:
 
-## Running Frontend Application
+> npx json-fake-server -m dev-mock-server-config.json
 
-The following command will run the SPA in local dev server:
+### Step 3: Running the site locally:
 
 > **npm** start
 
-The application will be available at http://localhost:3000 and by default you should see a welcome message there.
-
-## Production Build
-
-In order to prepare production build you need to run:
-
-> **npm** run build
-
-It is important to make sure that code can be built for production succesfully before submitting the solution.
-
-## Run tests
-
-The test file to verify src/services/LeagueService.js is located at tests/leaderboard.test.js. Feel free to modify the code there in order to test your work.
-It is important to implement all methods on src/services/LeagueService.js and TO NOT CHANGE the interface of them.
-
-To run the tests just run this command. 
-
-```shell
-npm test
-```
-
+This opens up http://localhost:3000 in your default browser and will display the schedule page.
