@@ -14,16 +14,16 @@ The leaderboard page:
 Both the schedule and leaderboard page have a responsive layout, changing the table columns depending on the width of the page:<br/>
 
 ### Schedule Page
-<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/f3983356-407e-4091-b209-0abc5c3c3e00" width="855" height="600"/>
+<img src="public/Images/Schedule-1000x700px.jpg" width="855" height="600"/>
 <br/>
-<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/31e65a93-a10f-4ca7-8240-f72fbea7bf55" width="500" height="500" /> <img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/ebf0b17f-ee8a-4817-b472-5a07e802a462" width="350" height="500" />
+<img src="public/Images/Schedule-750x700px.jpg" width="500" height="500" /> <img src="public/Images/Schedule-500x700px.jpg" width="350" height="500" />
 
 <br/>
 
 ## Leaderboard Page
-<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/c918439d-221f-429c-a89e-ee44ab5a7338" width="855" height="600"/>
+<img src="public/Images/Leaderboard-1000x700px.jpg" width="855" height="600"/>
 <br/>
-<img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/bca98afc-f0df-47de-9a64-5c211d72d56b" width="500" height="500"/>  <img src="https://github.com/im-csm/React-Soccer-Website/assets/71950678/cf07b333-bfd8-4787-a65b-a4015cff8bbf" width="350" height="500"/>
+<img src="public/Images/Leaderboard-750x700px.jpg" width="500" height="500" /> <img src="public/Images/Leaderboard-500x700px.jpg" width="350" height="500" />
 
 <br/>
 
