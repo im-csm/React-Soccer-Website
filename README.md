@@ -7,7 +7,8 @@ This site was built with:
 
 The site has 2 main pages with a 404 Not Found page for any other URL. <br/>
 The schedule page:
-- Routed to http://localhost:3000/schedule or http://localhost:3000/
+- Routed to http://localhost:3000/schedule or http://localhost:3000/  
+
 The leaderboard page:
 - Routed to http://localhost:3000/leaderboard<br/>
 
